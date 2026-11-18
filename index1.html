@@ -106,7 +106,9 @@
         function getCategoryText(catKey) {
             switch(catKey) {
                 case 'traffic': return '🚦 การจราจรติดขัดหนาแน่น';
+                case 'accident': return '💥 เกิดอุบัติเหตุ / ชนกัน';
                 case 'road': return '🚧 ถนนชำรุด / เป็นหลุมเป็นบ่อ';
+                case 'flood': return '🌊 น้ำท่วมขังรอการระบาย';
                 case 'construction': return '🏗️ มีการซ่อมแซมทาง / ก่อสร้าง';
                 default: return '🚦 ' + (catKey || 'เหตุการณ์บนถนน');
             }
